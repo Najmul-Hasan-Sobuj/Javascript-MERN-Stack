@@ -2,6 +2,57 @@
 ![alt](https://res.cloudinary.com/practicaldev/image/fetch/s--0FRJGdyZ--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/epv55hgtsfi8csprpj9u.jpg)
 
 
+## Assignment 07
+### Object Data Structure 
+
+- A complete Data structure will be made by  array and object 
+- In an array data structure we face some problems like data key 
+- But with array and object data, we can build a complete structure for the future. 
+
+- #### Declare a object data structure 
+```
+const obj_name = {
+    name : ‘Asraful Haque’,
+    age : 10,
+    skill : ‘Laravel Developer’
+}
+```
+
+- #### Declare a object data structure with new Object 
+```
+const obj_name =  new Object({
+    name : ‘Asraful Haque’,
+    age : 10,
+    skill : ‘Laravel Developer’
+})
+```
+- #### Get data form an object data structure 
+```
+    -> By dot notation obj_name.property_name;
+    -> By array notation obj_name[‘property_name’];
+```
+
+- #### Create a Complete Array and Object Data structure 
+```
+const obj_name = [
+    {
+        name : ‘Asraful Haque’,
+        age : 10,
+        skill : ‘Laravel Developer’
+    },
+    {
+        name : ‘Asraful Haque’,
+        age : 10,
+        skill : ‘Laravel Developer’
+    },
+    {
+        name : ‘Asraful Haque’,
+        age : 10,
+        skill : ‘Laravel Developer’
+    }
+]
+```
+
 ## Assignment 09
 ### JSON Data 
     1. JSON stands for JavaScript Object Notation 
