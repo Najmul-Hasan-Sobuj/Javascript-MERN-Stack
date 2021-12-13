@@ -1,6 +1,92 @@
 # Javascript-MERN-Stack
 ![alt](https://res.cloudinary.com/practicaldev/image/fetch/s--0FRJGdyZ--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/epv55hgtsfi8csprpj9u.jpg)
 
+## Assignment 06
+### Array ( Data Structure ) 
+
+- Used more than one value or can be more than one value 
+- The best way to decorate data for future 
+- Any type of data can be stored in an array 
+- declare an array 
+```
+const array_var = [v1, v2, v3  . . . . ]; 
+```
+- Create some array data structure 
+    - 10 flowers of Bangladesh 
+    - 10 Rivers of Bangladesh 
+    - 10 fish of Bangladesh 
+    - 10 Birds of Bangladesh 
+    - 10 vegetable of Bangladesh 
+
+- Get value from an array 
+```
+array_var[ index_number ] 
+```
+- Get array length 
+```
+array_var.length 
+```
+- Get all array value by for loop 
+```
+for( let i = 0; i < array_var.length;  i++ ){
+    return array_var[ i ];
+}
+```
+- Get all array data by forEach & Map ( iteration )
+```
+array_var.forEach( function(data){
+    return data;    
+})
+
+array_var.map((data) => {
+    return data;    
+})
+```
+- Create an array by using Array Constructor 
+```
+new Array(item1, item2, . . . )
+```
+- Array to string conversion 
+```
+-> toString
+-> join
+-> split 
+```
+- Array Add & Remove 
+```
+-> push
+-> pop 
+-> shift
+-> unshift 
+-> slice
+-> splice 
+```
+- Array  methods & Uses 
+```
+-> concat() 
+-> reverse()
+-> sort() 
+-> filter() 
+-> reduce()
+-> every() 
+-> some() 
+-> indexOf()
+-> find() 
+-> findIndex()
+-> from() 
+-> keys() 
+-> includes() 
+-> isArray()
+-> valueOf() 
+```
+- Multidimensional  Array  
+```
+[
+    [item1, item2, . . . . ],
+    [item1, item2, . . . . ],
+    [item1, item2, . . . . ]
+]
+```
 
 ## Assignment 07
 ### Object Data Structure 
