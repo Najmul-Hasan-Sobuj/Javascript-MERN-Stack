@@ -36,7 +36,7 @@
 >Arithmetic operators are used to perform arithmetic on numbers:
 
     | Operator | Description                  |
-    | :---     |     :---:                    |
+    | -------- | ---------------------------- |
     | +        | Addition                     |
     | -        | Subtraction                  |
     | *        | Multiplication               |
@@ -48,8 +48,9 @@
 
 #### JavaScript Assignment Operators
 >Assignment operators assign values to JavaScript variables.
+
     | Operator | Example   | Same As    |
-    | :---     |     :---: |        ---:|
+    | -------- | --------- | ---------- | 
     | =        | x = y     | x = y      |
     | +=       | x += y    | x = x + y  |
     | -=       | x -= y    | x = x - y  |
@@ -61,7 +62,7 @@
 #### JavaScript Comparison Operators
 
     | Operator | Description                       |
-    | :---     |     :---:                         |
+    | -------- | --------------------------------- |
     | ==       | equal to                          |
     | ===      | equal value and equal type        |
     | !=       | not equal                         |
@@ -74,7 +75,7 @@
 #### JavaScript Logical Operators
 
     | Operator | Description |
-    | :---     |     :---:   |
+    | -------- | ----------- |
     | &&       | logical and |
     | ||       | logical or  |
     | !        | logical not |
