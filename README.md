@@ -1,6 +1,121 @@
 # Javascript-MERN-Stack
 ![alt](https://res.cloudinary.com/practicaldev/image/fetch/s--0FRJGdyZ--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/epv55hgtsfi8csprpj9u.jpg)
 
+## Assignment 02
+### JavaScript Variables
+
+- Var 
+- Let 
+- Const 
+
+- #### Rules for variables
+
+- Names can contain letters, digits, underscores, and dollar signs. 
+- Names must begin with a letter
+- Names can also begin with $ and _ 
+- Names are case sensitive 
+- Reserved words cannot be used as names
+
+### Template literal Syntax
+
+- Template literals are literals delimited with backticks (`), allowing embedded expressions called substitutions. 
+- There are 2 type of template literal 
+    - untag template literal 
+    - Tag  template literal 
+- Interpolation variables and expression - ``` ${ var / ex } ```
+
+### Comments 
+- Make a comment by using // 
+- Line comment 
+- Multiline comments 
+- Doc block for documentation 
+
+### Operators 
+
+#### JavaScript Arithmetic Operators
+>Arithmetic operators are used to perform arithmetic on numbers:
+
+    | Operator | Description                  |
+    | :---     |     :---:                    |
+    | +        | Addition                     |
+    | -        | Subtraction                  |
+    | *        | Multiplication               |
+    | **       | Exponentiation               |
+    | /        | Division                     |
+    | %        | Modulus (Division Remainder) |
+    | ++       | Increment                    |
+    | --       | Decrement                    |
+
+#### JavaScript Assignment Operators
+>Assignment operators assign values to JavaScript variables.
+    | Operator | Example   | Same As    |
+    | :---     |     :---: |        ---:|
+    | =        | x = y     | x = y      |
+    | +=       | x += y    | x = x + y  |
+    | -=       | x -= y    | x = x - y  |
+    | *=       | x *= y    | x = x * y  |
+    | /=       | x /= y    | x = x / y  |
+    | %=       | x %= y    | x = x % y  |
+    | **=      | x **= y   | x = x ** y |
+
+#### JavaScript Comparison Operators
+
+    | Operator | Description                       |
+    | :---     |     :---:                         |
+    | ==       | equal to                          |
+    | ===      | equal value and equal type        |
+    | !=       | not equal                         |
+    | !==      | not equal value or not equal type |
+    | >        | greater than                      |
+    | <        | less than                         |
+    | >=       | greater than or equal to          |
+    | <=       | less than or equal to             |    
+    | ?        | ternary operator                  |    
+#### JavaScript Logical Operators
+
+    | Operator | Description |
+    | :---     |     :---:   |
+    | &&       | logical and |
+    | ||       | logical or  |
+    | !        | logical not |
+### Data Types
+
+- String 
+- Number 
+- Boolean 
+- Array 
+- Object 
+- Undefined 
+
+### Conditional Statement 
+
+- if 
+- else 
+- else if 
+- switch case 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Assignment 06
 ### Array ( Data Structure ) 
 
