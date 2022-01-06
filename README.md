@@ -665,3 +665,415 @@ const obj_name = [
     \S              ( non-white space  )
     \w              ( word boundary  )
 ```
+
+## Class 11 Overview
+
+### JavaScript DOM 
+
+- DOM stands for Document Object Model 
+
+- The whole document of a website and its all elements are called DOM Elements 
+
+- We can add, remove, change and delete by DOM operation 
+
+- DOM operations are executed by DOM event 
+
+- DOM properties and methods help DOM manipulation 
+
+- DOM object is a document
+
+### DOM Object 
+
+
+- Title 
+
+- Domain 
+
+- Images
+
+- Doctype
+
+- Body 
+
+- Head 
+
+- URL 
+
+- Links 
+
+- Scripts 
+
+- form 
+
+- Embeds 
+
+- Cookie 
+
+### DOM Selectors  
+
+
+- getElementById()
+
+- getElementsByClassName()
+
+- getElementsByTagName()
+
+- querySelector()
+
+- querySelectorAll()
+
+### DOM Property & Methods 
+
+- innerHTML
+
+- innerText
+
+- textContent
+
+- setAttribute
+
+- getAttributes 
+
+- hasAttributes 
+
+- Style
+
+- className
+
+- classList.add / remove
+
+- Id 
+
+- Children
+
+- firstChild 
+
+- LastChild 
+
+- parentElement
+
+- nextElementSiblings
+
+- previoustElementSiblings  
+
+- Value
+
+### Add and Delete Elements
+
+- createElement
+
+- createTextNode
+
+- Append
+
+- appendChild
+
+- removeChild / remove
+
+- replaceChild
+
+- insertBefore
+
+- write  
+
+### Event Listener
+
+- Fire event in DOM
+
+- addEventListener ( eventName, callback )
+
+- event with arrow
+
+- #### Mouse Event
+    - click
+    - dblclick
+    - mouseenter
+    - mouseleave
+    - mousedown
+    - mouseup
+- #### Keyboard
+    - keydown
+    - keyup
+    - keypress
+- #### Form Event 
+    - focus
+    - blur
+    - change
+    - submit 
+
+## Class 12 Overview
+
+### JavaScript DOM 
+
+- DOM stands for Document Object Model 
+
+- The whole document of a website and its all elements are called DOM Elements 
+
+- We can add, remove, change and delete by DOM operation 
+
+- DOM operations are executed by DOM event 
+
+- DOM properties and methods help DOM manipulation 
+
+- DOM object is a document
+
+### DOM Object 
+
+
+- Title 
+
+- Domain 
+
+- Images
+
+- Doctype
+
+- Body 
+
+- Head 
+
+- URL 
+
+- Links 
+
+- Scripts 
+
+- form 
+
+- Embeds 
+
+- Cookie 
+
+### DOM Selectors  
+
+
+- getElementById()
+
+- getElementsByClassName()
+
+- getElementsByTagName()
+
+- querySelector()
+
+- querySelectorAll()
+
+### DOM Property & Methods 
+
+- innerHTML
+
+- innerText
+
+- textContent
+
+- setAttribute
+
+- getAttributes 
+
+- hasAttributes 
+
+- Style
+
+- className
+
+- classList.add / remove
+
+- Id 
+
+- Children
+
+- firstChild 
+
+- LastChild 
+
+- parentElement
+
+- nextElementSiblings
+
+- previoustElementSiblings  
+
+- Value
+
+### Add and Delete Elements
+
+- createElement
+
+- createTextNode
+
+- Append
+
+- appendChild
+
+- removeChild / remove
+
+- replaceChild
+
+- insertBefore
+
+- write  
+
+### Event Listener
+
+- Fire event in DOM
+
+- addEventListener ( eventName, callback )
+
+- event with arrow
+
+- #### Mouse Event
+    - click
+    - dblclick
+    - mouseenter
+    - mouseleave
+    - mousedown
+    - mouseup
+- #### Keyboard
+    - keydown
+    - keyup
+    - keypress
+- #### Form Event 
+    - focus
+    - blur
+    - change
+    - submit 
+
+## Class 13 Overview
+
+### JavaScript DOM 
+
+- DOM stands for Document Object Model 
+
+- The whole document of a website and its all elements are called DOM Elements 
+
+- We can add, remove, change and delete by DOM operation 
+
+- DOM operations are executed by DOM event 
+
+- DOM properties and methods help DOM manipulation 
+
+- DOM object is a document
+
+### DOM Object 
+
+
+- Title 
+
+- Domain 
+
+- Images
+
+- Doctype
+
+- Body 
+
+- Head 
+
+- URL 
+
+- Links 
+
+- Scripts 
+
+- form 
+
+- Embeds 
+
+- Cookie 
+
+### DOM Selectors  
+
+
+- getElementById()
+
+- getElementsByClassName()
+
+- getElementsByTagName()
+
+- querySelector()
+
+- querySelectorAll()
+
+### DOM Property & Methods 
+
+- innerHTML
+
+- innerText
+
+- textContent
+
+- setAttribute
+
+- getAttributes 
+
+- hasAttributes 
+
+- Style
+
+- className
+
+- classList.add / remove
+
+- Id 
+
+- Children
+
+- firstChild 
+
+- LastChild 
+
+- parentElement
+
+- nextElementSiblings
+
+- previoustElementSiblings  
+
+- Value
+
+### Add and Delete Elements
+
+- createElement
+
+- createTextNode
+
+- Append
+
+- appendChild
+
+- removeChild / remove
+
+- replaceChild
+
+- insertBefore
+
+- write  
+
+### Event Listener
+
+- Fire event in DOM
+
+- addEventListener ( eventName, callback )
+
+- event with arrow
+
+- #### Mouse Event
+    - click
+    - dblclick
+    - mouseenter
+    - mouseleave
+    - mousedown
+    - mouseup
+- #### Keyboard
+    - keydown
+    - keyup
+    - keypress
+- #### Form Event 
+    - focus
+    - blur
+    - change
+    - submit 
+
+### Timer Function 
+
+- setTimeout
+- clearTimeout 
+- setInterval 
+- clearInterval 
