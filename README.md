@@ -508,14 +508,20 @@ const obj_name = [
 ]
 ```
 
-## Class 08 Overview
+## Class 09 Overview
 ### JSON Data 
-    1. JSON stands for JavaScript Object Notation 
-    2. The lightweight data-interchange format 
-    3. Language independent 
-    4. Easy to understand and self-describing 
-    5. JSON is a text format for storing and transporting data 
-    6. JSON helps to convert array and object data to a string format for devs-friendly data use.  
+
+- JSON stands for JavaScript Object Notation 
+
+- The lightweight data-interchange format 
+
+- Language independent 
+
+- Easy to understand and self-describing 
+
+- JSON is a text format for storing and transporting data 
+
+- JSON helps to convert array and object data to a string format for devs-friendly data use.  
 
 - Declare a JSON
 
@@ -578,4 +584,84 @@ const obj_name = [
         Block of code to be executed regardless of the 
         try/catch   	  
     }
+```
+
+## Class 10 Overview
+
+### Local Storage 
+
+- Browser storage for temporary data 
+
+- Send data to LS 
+    - ```localStorage.setItem( ‘key’, ‘value’ );```
+
+- Get Data from LS 
+    - ```localStorage.getItem(‘key’);```
+
+### Session Storage 
+- Browser storage for temporary data 
+    - ```sessionStorage.setItem( ‘key’, ‘value’ );```
+- Send data to S 
+    - ```sessionStorage.getItem(‘key’);```
+### Cookie Storage
+
+- Cookies are data, stored in small text files, on your computer 
+
+- It is used to remember a user from the browser 
+- Send data to a cookie
+    - ```document.cookie = “name = data ; expire ; path =/ ”;```
+- Get Data from cookie 
+    - ```let cookie_data = document.cookie ;```
+
+### Regular Expression 
+
+- A regular expression is a sequence of characters that forms a search pattern
+
+- A regular expression can be a single character or a more complicated pattern
+
+- #### Syntax
+
+/ pattern / modifier
+
+- #### Modifier
+
+    ```
+    /i	      ( case insensitive )
+    /g        ( global Search )
+    /m       ( multiline search for the match  )
+    /          ( empty modifier is case sensitive )  
+    ```
+- #### Methods
+
+    ```
+    exec   	      	( check data is in an array or not )
+    test     	      	( return true or false for data check )
+    match         	( check the match is in or not  )
+    search         	( search the index number of pattern  )
+    replace            ( replace words of a string )
+    ```
+- #### Literal character    
+
+    - all regular character is a literal character 
+
+- #### Meta Character
+
+```
+    ^         		( start with the character )
+    $          		( ends with character )
+    .           	( any character length will be one )
+    *          		( any character length one to more  )
+    ?          		( set optional character by using this key )
+    [abc] 		    ( character group )
+    [^abc]  		( except those character  )
+    [A-Z][a-z][0-9] ( uppercase, lowercase and number )
+    abc{2}        	( quantifier for repeat character )
+    ()              ( for creating group )
+    \w              ( alphanumeric word character  )
+    \W              ( non-word character  )
+    \d              ( digit character )
+    \D              ( non-digit  )
+    \s              ( white space )
+    \S              ( non-white space  )
+    \w              ( word boundary  )
 ```
