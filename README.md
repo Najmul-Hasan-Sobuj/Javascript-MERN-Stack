@@ -114,7 +114,7 @@ In September 1995, a Netscape programmer named Brandan Eich developed a new scri
 - In a programming language,  instructions ( lines of code  ) are called statements. 
 - put a semicolon after a complete statement 
 - also, you can avoid semicolon  
-- two or more words are joined by using concatenation ( + )
+- two or more words are joined by using concatenation ( + ) 
 
 ## Class 02 Overview
 ### JavaScript Variables
@@ -210,29 +210,167 @@ In September 1995, a Netscape programmer named Brandan Eich developed a new scri
 - else if 
 - switch case 
 
+## Class 03 Overview
+
+### Conditional Statement 
+
+- if 
+
+- else 
+
+- else if 
+
+- switch case 
+
+- Ternary operator ( condition  ? true return   : false return  )
+
+- nullish coalescing operator  ( return the value   ?? return something if the value null or undefined   )
+
+- undefined, null and empty value
+
+- parseInt, Number, parseFloat  for string to number conversion
+
+- Truthy & Falsy Values   ( undefined, null, empty, 0, NaN )
+
+### Loops 
+- For loading some code a number of times 
+
+- loop structure 
+    - initial value 
+    - condition / end step 
+    - operators ( ++, -- )
+
+- Loop Statement 
+    - for 
+    - while / do while 
+
+## Class 04 Overview
+
+### User-Defined Function
+
+- To avoid repeating the same code 
+
+- Create a complex  functionality for use 
+
+- Declare one-time use many times 
+
+- The application will be scalable and clean 
+
+### Declare a function
+to declare a function use function key and then put the name of the function 
+```
+    function functionName () { 
+        function output  
+    }
+```
+### Invoke a function 
+When we call a function then it is called function invoke. After declaring a function now it’s time to use this function. Just call this function like this functionName();
+### Arguments & Parameter 
+```
+    functionName(argument1, argument2, . . . . );
+    function functionName (parameter1, parameter2, . . . . ) { 
+        function output  
+    }
+```
+### function Expression 
+```
+    let functionName = function (parameter1, parameter2, . . . . ) { 
+        function output  
+    }
+```
+### Arrow function 
+```
+    let functionName = (parameter1, parameter2, . . . . ) =>  { 
+        function output  
+    }
+```
+
+## Class 05 Overview
+
+### Function Review 
+
+- function declaration  
+
+- function expression 
+
+- arrow function 
+### Arrow function Details 
+
+- arrow function syntax 
+```
+    let function_name = ( param1, param2, . . . ) => {
+        output / functionality 
+    }
+``` 
+- Single line arrow function 
+```
+    let func_name = ( p1, p2, . . .  ) => return output 
+``` 
+- single parameter arrow function 
+```
+    let func_name = ( p1 )   => output / functionality
+    let func_name =   p1      => output / functionality
+``` 
+### Constructor Function  
+
+- The leader of the function 
+
+- Many functions & variables  live under the constructor function 
+
+- Just call the leader then you will call all the sub function 
 
 
+- syntax of constructor function 
+```
+    function FunctionName(){
+        output / functionality 
+    }
+```
+- constructor function expression 
+```
+    let FunctionName = function(){
+        output / functionality 
+    }
+```
+- Sub functions in constructor function 
+```
+    let FunctionName = function(){
+        this.variables1 = ‘ value1 ’;
+        this.variables2 = ‘ value2 ’;
+        this.variables3 = ‘ value 3’;
 
+        this.fucntion1_name = function(){
+            output / functionality 
+        }
 
+        this.fucntion2_name = function(){
+            output / functionality 
+        }
+    }
+```
+- Call the constructor function / instance 
+```
+    let lead_name = new FunctionName;
+```
+- Call the sub functions and variables from  constructor function after  instance
+```
+after  instance
+let lead_name = new FunctionName; 
 
+lead_name.variable1;
+lead_name.variable2;
 
+lead_name.fucntion1();
+lead_name.fucntion2();
+```
+### Project Work 
 
+- Create a Utility Constructor function 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Complete result system with 
 
 ## Class 06 Overview
+
 ### Array ( Data Structure ) 
 
 - Used more than one value or can be more than one value 
