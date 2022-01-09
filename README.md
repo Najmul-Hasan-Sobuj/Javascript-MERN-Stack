@@ -803,6 +803,9 @@ const obj_name = [
 
 ## Class 12 Overview
 
+### Assignment 12 Design
+![alt](Class 12 Assignment/)
+
 ### JavaScript DOM 
 
 - DOM stands for Document Object Model 
