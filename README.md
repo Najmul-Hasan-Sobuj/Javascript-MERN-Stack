@@ -716,6 +716,9 @@ const obj_name = [
 <details>
 <summary>Click Here</summary>
 
+### Assignment 11 Design
+![alt](https://github.com/Najmul-Hasan-Sobuj/Javascript-MERN-Stack/blob/main/1132Class11/public/img/class%2011%20assigment%20design.png?raw=true)
+
 ### JavaScript DOM 
 
 - DOM stands for Document Object Model 
