@@ -2,6 +2,8 @@
 ![alt](https://res.cloudinary.com/practicaldev/image/fetch/s--0FRJGdyZ--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/epv55hgtsfi8csprpj9u.jpg)
 
 ## Class 01 Overview
+<details>
+<summary>Click Here</summary>
 ### What is javaScript
 
 - Popular web Programming Language 
@@ -115,7 +117,7 @@ In September 1995, a Netscape programmer named Brandan Eich developed a new scri
 - put a semicolon after a complete statement 
 - also, you can avoid semicolon  
 - two or more words are joined by using concatenation ( + ) 
-
+</details> 
 ## Class 02 Overview
 ### JavaScript Variables
 
