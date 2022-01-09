@@ -121,10 +121,10 @@ In September 1995, a Netscape programmer named Brandan Eich developed a new scri
 - two or more words are joined by using concatenation ( + ) 
 </details> 
 
+## Class 02 Overview
+
 <details>
 <summary>Click Here</summary>
-
-## Class 02 Overview
 
 ### JavaScript Variables
 
@@ -223,6 +223,9 @@ In September 1995, a Netscape programmer named Brandan Eich developed a new scri
 
 ## Class 03 Overview
 
+<details>
+<summary>Click Here</summary>
+
 ### Conditional Statement 
 
 - if 
@@ -255,7 +258,12 @@ In September 1995, a Netscape programmer named Brandan Eich developed a new scri
     - for 
     - while / do while 
 
+</details> 
+
 ## Class 04 Overview
+
+<details>
+<summary>Click Here</summary>
 
 ### User-Defined Function
 
@@ -296,7 +304,12 @@ When we call a function then it is called function invoke. After declaring a fun
     }
 ```
 
+</details> 
+
 ## Class 05 Overview
+
+<details>
+<summary>Click Here</summary>
 
 ### Function Review 
 
@@ -380,7 +393,13 @@ lead_name.fucntion2();
 
 - Complete result system with 
 
+</details> 
+
+<details>
+<summary>Click Here</summary>
+
 ## Class 06 Overview
+
 
 ### Array ( Data Structure ) 
 
@@ -467,8 +486,13 @@ new Array(item1, item2, . . . )
     [item1, item2, . . . . ]
 ]
 ```
+</details> 
 
 ## Class 07 Overview
+
+<details>
+<summary>Click Here</summary>
+
 ### Object Data Structure 
 
 - A complete Data structure will be made by  array and object 
@@ -519,7 +543,13 @@ const obj_name = [
 ]
 ```
 
+</details> 
+
 ## Class 09 Overview
+
+<details>
+<summary>Click Here</summary>
+
 ### JSON Data 
 
 - JSON stands for JavaScript Object Notation 
@@ -596,8 +626,12 @@ const obj_name = [
         try/catch   	  
     }
 ```
+</details> 
 
 ## Class 10 Overview
+
+<details>
+<summary>Click Here</summary>
 
 ### Local Storage 
 
@@ -676,8 +710,12 @@ const obj_name = [
     \S              ( non-white space  )
     \w              ( word boundary  )
 ```
+</details> 
 
 ## Class 11 Overview
+
+<details>
+<summary>Click Here</summary>
 
 ### JavaScript DOM 
 
@@ -811,8 +849,12 @@ const obj_name = [
     - blur
     - change
     - submit 
+</details>
 
 ## Class 12 Overview
+
+<details>
+<summary>Click Here</summary>
 
 ### Assignment 12 Design
 ![alt](https://github.com/Najmul-Hasan-Sobuj/Javascript-MERN-Stack/blob/main/Class%2012%20Assignment/public/img/class%2012%20assigment%20design.png?raw=true)
@@ -950,7 +992,12 @@ const obj_name = [
     - change
     - submit 
 
+</details>
+
 ## Class 13 Overview
+
+<details>
+<summary>Click Here</summary>
 
 ### JavaScript DOM 
 
@@ -1091,3 +1138,5 @@ const obj_name = [
 - clearTimeout 
 - setInterval 
 - clearInterval 
+
+</details>
