@@ -804,7 +804,7 @@ const obj_name = [
 ## Class 12 Overview
 
 ### Assignment 12 Design
-![alt](Class 12 Assignment/)
+![alt](https://github.com/Najmul-Hasan-Sobuj/Javascript-MERN-Stack/blob/main/Class%2012%20Assignment/public/img/class%2012%20assigment%20design.png?raw=true)
 
 ### JavaScript DOM 
 
