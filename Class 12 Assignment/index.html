@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap style link -->
+    <link rel="stylesheet" href="public/bootstrap.min.css">
+    <!-- custom css style link -->
+    <link rel="stylesheet" href="public/style.css">
+    <!-- fontawesome css style link  -->
+    <link rel="stylesheet" href="public/fontawsome_all.min.css">
+    <title>Class 12 Assignment</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="age_cal mt-5"> <!-- Age Calculator -->
+                        <div class="card shadow">
+                            <div class="card-header-sm bg-danger p-2">
+                                <h1 class="text-center text-white">Age Calculator</h1>
+                            </div>
+                            <div class="card-body bg-light">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label class="control-label"for="name">Full Name</label>
+                                            <input type="text" id="name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label"for="birthYear">Birth Year</label>
+                                            <input type="text" id="birthYear" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-secondary">
+                                <div class="card-text ">
+                                    <strong id="output_one" class="card-subtitle text-white"></strong>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-dark">
+                                <button id="age_ch_btn" type="submit" class="btn btn-primary w-100">Age Check</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cur_conv mt-5"> <!-- Currency Converter -->
+                        <div class="card shadow">
+                            <div class="card-header-sm bg-danger p-2">
+                                <h1 class="text-center text-white">Currency Converter</h1>
+                            </div>
+                            <div class="card-body bg-light">
+                                <div class="input-group">
+                                    <span id="cur_icon" class="input-group-text">৳</span>
+                                    <input type="text" id="ammount" placeholder="Ammount of TAKA" class="form-control">
+                                </div>
+                                <div class="row m-3">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <select class="form-control" name=""id="country">
+                                                <option active value="116">Pound</option>
+                                                <option value="60">CAD</option>
+                                                <option value="86">USD</option>
+                                                <option value="98">Euro </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-secondary">
+                                <div class="card-text ">
+                                    <strong id="output_two" class="card-subtitle text-white"></strong>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-dark">
+                                <button id="cur_conv_btn" type="submit" class="btn btn-primary w-100">Convert</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mar_age_cal"></div> <!-- marriage age check calculator -->
+                    <div class="card shadow my-5">
+                        <div class="card-header-sm bg-danger p-2">
+                            <h1 class="text-center text-white">Marriage Age Check Calculator </h1>
+                        </div>
+                        <div class="card-body bg-light">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label"for="mName">Full Name</label>
+                                        <input type="text" id="mName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label class="control-label"for="mAge">Age</label>
+                                        <input type="text" id="mAge" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group mb-0">
+                                        <label class="control-label mb-1">Ganger</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="male" value="male" checked>
+                                        <label class="form-check-label" for="male">
+                                          Male
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="female" value="female">
+                                        <label class="form-check-label" for="female">
+                                          Female
+                                        </label>
+                                    </div>                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-secondary">
+                            <div class="card-text ">
+                                <strong id="output_three" class="card-subtitle text-white"></strong>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <div id="mar_che_btn"><button type="submit" class="btn btn-primary w-100 rounded-pill">Marriage Age Check</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bootstrap min.js file -->
+    <script src="public/bootstrap.min.js"></script>
+    <!-- fontawesome min.js file  -->
+    <script src="public/fontawasome_all.min.js"></script>
+    <!-- custom javascript file -->
+    <script src="public/custom.js"></script>
+</body>
+</html>
