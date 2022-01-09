@@ -395,11 +395,10 @@ lead_name.fucntion2();
 
 </details> 
 
-<details>
-<summary>Click Here</summary>
-
 ## Class 06 Overview
 
+<details>
+<summary>Click Here</summary>
 
 ### Array ( Data Structure ) 
 
