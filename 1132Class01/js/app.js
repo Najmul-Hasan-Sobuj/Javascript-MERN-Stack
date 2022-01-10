@@ -11,7 +11,7 @@ var Math = prompt('Input Your Math Subject Marks');
 var Chemistry = prompt('Input Your Chemistry Subject Marks');
 var Biology = prompt('Input Your Biology Subject Marks');
 
-alert('Bangla:'+Bangla+'\nEnglish:'+English+'\nMath:'+Math+'\nChemistry:'+Chemistry+'\nBiology:'+Biology);
+alert('Bangla:' + Bangla + '\nEnglish:' + English + '\nMath:' + Math + '\nChemistry:' + Chemistry + '\nBiology:' + Biology);
 
 // Make a kobol project start
 function deleteFun() {
