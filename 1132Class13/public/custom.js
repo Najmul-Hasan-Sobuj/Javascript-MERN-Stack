@@ -13,7 +13,7 @@ const stop    = document.querySelector('#stop');
 const reset   = document.querySelector('#reset');
 const counter = document.querySelector('#counter');
 
-counter.innerHTML = '⬜';
+counter.innerHTML = '▶';
 let counterTime;
 let counterValue = 0;
 start.addEventListener('click', () =>{
