@@ -63,3 +63,31 @@ function loader(startValue, currentValue) {
     return (currentValue*100)/startValue;
 }
 // Counter with Loader End
+
+// TODO List Start
+const todoInput = document.querySelector('#todoInput');
+const todoBtn   = document.querySelector('#todoBtn');
+const todoLi    = document.querySelector('#todoLi');
+
+todoBtn.addEventListener('click',() => {
+    let li = document.createElement('li');
+    li.className = 'list-group-item';
+    li.innerText = todoInput.value;
+    todoLi.appendChild(li);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// TODO List End

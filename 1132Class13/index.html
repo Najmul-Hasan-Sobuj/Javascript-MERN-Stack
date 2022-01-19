@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="digitalClock m-5">
+        <div class="counterWithLoader m-5">
             <div class="card">
                 <div class="card-header">
                     <div class="card-title text-center">
@@ -62,12 +62,32 @@
                     <div class="row m-2">
                         <div class="col-md-12">
                             <div class="progress">
-                                <div id="progress_bar" class="progress-bar progress-bar-striped bg-danger" role="progressbar"
-                                    style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div id="progress_bar" class="progress-bar progress-bar-striped bg-danger"
+                                    role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="toDo m-5">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title text-center">
+                        <h1>TODO List</h1>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="input-group mb-3">
+                        <input id="todoInput" type="text" class="form-control" placeholder="add daily task" aria-label="add daily task" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="todoBtn">Add</button>
+                      </div>
+                </div>
+                <ul class="list-group list-group-flush" id="todoLi">
+                    
+                </ul>
             </div>
         </div>
     </div>
