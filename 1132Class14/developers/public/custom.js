@@ -59,20 +59,23 @@ function allDevelopersData() {
     let emptyData = '';
     products.forEach(element => {
         emptyData += `
-        <div class="card m-2 col-md-4">
-            <img src="${element.photo_url}"
-                class="card-img-top" alt="">
-            <div class="card-body">
-                <div class="card-title">
-                    <h3>${element.dev_name}</h3>
-                    <small class="text-muted">${element.gender}</small>
+        <div class="col-md-4">
+            <div class="card mb-2">
+                <img src="${element.photo_url}"
+                    class="card-img-top" alt="">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3>${element.dev_name}</h3>
+                        <small class="text-muted">${element.gender}</small>
+                    </div>
                 </div>
-            </div>
-            <div class="card-footer">
-                <strong>${element.skills}</strong>
+                <div class="card-footer">
+                    <strong>${element.skills}</strong>
+                </div>
             </div>
         </div>
         `;
     });
+
     d_card_parent.innerHTML = emptyData
 }
