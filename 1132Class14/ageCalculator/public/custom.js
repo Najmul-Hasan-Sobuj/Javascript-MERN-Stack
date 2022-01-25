@@ -1,90 +1,50 @@
+
+const output = document.querySelector('.output');
 const caFor = document.getElementById('caFor');
-const message = document.querySelector('.message');
+caFor.addEventListener('submit', function(e){
 
-caFor.addEventListener('submit', function (e) {
     e.preventDefault();
+    let date = this.querySelector('input[name="date"]').value;
+    let time = this.querySelector('input[name="time"]').value;
 
-    // Date of Birth Start
-    let rowOneMonth = this.querySelector('#rowOneMonth');
-    let rowOneDay = this.querySelector('#rowOneDay');
-    let rowOneYear = this.querySelector('#rowOneYear');
-    // Date of Birth end
+    let timeStart = new Date( date + " " + time );
+    let timeEnd = new Date();
 
-    // Age at the Date of Start
-    let rowTwoMonth = this.querySelector('#rowTwoMonth');
-    let rowTwoDay = this.querySelector('#rowTwoDay');
-    let rowTwoYear = this.querySelector('#rowTwoYear');
-    // Age at the Date of end
-
-    if (rowOneMonth.value == '' || rowOneDay.value == '' || rowOneYear.value == '' || rowTwoMonth.value == '' || rowTwoDay.value == '' || rowTwoYear.value == '') {
-        message.innerHTML = ` <p class="alert alert-danger"> all fildes are requerd </p> `;
-    }
-
-    let date = new Date();
-
-    // Date of Birth Start
-    let rowOneMonth = date.getMonth();
-    let rowOneDay = date.getDate();
-    let rowOneYear = date.getFullYear();
-    // Date of Birth End
-
-    // Age at the Date of Start
-    let rowTwoMonth = date.getMonth();
-    let rowTwoDay = date.getDate();
-    let rowTwoYear = date.getFullYear();
-    // Age at the Date of end
-
-   
-    
-
-    // const all_months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    // let rowOneMonth = all_months[currentDate.getMonth()];
+    setTimeout(() =>{
 
 
-    // document.getElementById("month").value.innerHTML = currentMonth;
+        let timeGap = Math.floor(timeEnd.getTime() - timeStart.getTime());
+
+        let total_sec = Math.floor( timeGap / 1000 );
+        let total_min = Math.floor( total_sec / 60 );
+        let total_hours = Math.floor( total_min / 60 );
+        let total_day = Math.floor( total_hours / 24 );
+        let total_week = Math.floor( total_day / 7 );
+        let total_month = Math.floor( total_day / 30 );
+        let total_year = Math.floor( total_month / 12 );
+
+        let month = total_month - ( total_year * 12 );
+        let day = total_day - ( total_year * 12 * 30 ) - ( month * 30 );
+
+        output.innerHTML = ` 
+        
+        Age : <br> Total year: ${ total_year } <br> Total Month: ${ total_month } <br> Total Week: ${ total_week } <br> Total day: ${ total_day } <br> Total hours: ${ total_hours } <br> Total nin: ${ total_min } <br> Total sec: ${ total_sec }
+        
+        `;
+
+
+    }, 1000);
+
+
+
+
+
+
+
+
+
+
+
+
 
 });
-
-
-
-
-let date = new Date();
-let m = date.getMonth();
-let d = date.getDate();
-let y = date.getFullYear();
-
-
-console.log(`month${m}day${d}year${y}`);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let currentDate = new Date();
-// const all_months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-// let currentMonth = all_months[currentDate.getMonth()];
-
-// document.getElementById("month").value.innerHTML = currentMonth;
-
-// let currentDay =currentDate.getDate();
-// document.getElementById("day").value.innerHTML = currentDay;
-
-// let currentYear =currentDate.getFullYear();
-// document.getElementById("year").innerHTML = currentDay;
