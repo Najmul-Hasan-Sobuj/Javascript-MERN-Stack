@@ -23,13 +23,16 @@
                     <h1 class="text-center">Age Calculator</h1>
                 </div>
                 <div class="card-body">
-                    <form action="">
+                    <div class="message">
+                        
+                    </div>
+                    <form id="caFor" action="">
                         <div class="row m-2">
                             <div class="col-md-3">
                                 <label for="" class="form-label">Date of Birth</label>
                             </div>
                             <div class="col-md-3">
-                                <select class="form-select mb-3">
+                                <select id="rowOneMonth" class="form-select mb-3">
                                     <option value="jan">jan</option>
                                     <option value="Feb">Feb</option>
                                     <option value="Mar">Mar</option>
@@ -45,7 +48,7 @@
                                 </select>
                             </div>
                             <div class="col-md-3">
-                                <select class="form-select mb-3">
+                                <select id="rowOneDay" class="form-select mb-3">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -80,7 +83,7 @@
                                 </select>
                             </div>
                             <div class="col-md-3">
-                                <input type="text" class="form-control" placeholder="">
+                                <input id="rowOneYear" value="" type="text" class="form-control" placeholder="">
                             </div>
                         </div>
                         <div class="row m-2">
@@ -88,7 +91,7 @@
                                 <label for="" class="form-label">Age at the Date of</label>
                             </div>
                             <div class="col-md-3">
-                                <select id="month" class="form-select mb-3">
+                                <select id="rowTwoMonth" class="form-select mb-3">
                                     <option value="jan">jan</option>
                                     <option value="Feb">Feb</option>
                                     <option value="Mar">Mar</option>
@@ -104,7 +107,7 @@
                                 </select>
                             </div>
                             <div class="col-md-3">
-                                <select id="day" class="form-select mb-3">
+                                <select id="rowTwoDay" class="form-select mb-3">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -139,7 +142,7 @@
                                 </select>
                             </div>
                             <div class="col-md-3">
-                                <input id="year" value="year" type="text" class="form-control" placeholder="">
+                                <input id="rowTwoYear" value="" type="text" class="form-control" placeholder="">
                             </div>
                         </div>
                         <div class="row m-2">
@@ -148,6 +151,17 @@
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h1 class="text-center">Results</h1>
+                </div>
+                <div class="card-body">
+                    <div class="output">
+
+                    </div>
                 </div>
             </div>
         </div>
