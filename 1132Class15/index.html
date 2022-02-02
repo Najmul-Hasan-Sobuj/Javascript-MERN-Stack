@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>1132Class15</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cheakbox mt-5">
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h1 class="text-center">Checkbox</h1>
+                </div>
+                <div class="card-body">
+                    <div class="form-check">
+                        <input class="form-check-input skills" name="html" type="checkbox" value="html" id="html">
+                        <label class="form-check-label" for="html">
+                            Html
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input skills" name="css" type="checkbox" value="css" id="css">
+                        <label class="form-check-label" for="css">
+                            CSS
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input skills" name="bootstrap" type="checkbox" value="bootstrap"
+                            id="bootstrap">
+                        <label class="form-check-label" for="bootstrap">
+                            Bootstrap
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input skills" name="javascript" type="checkbox" value="javascript"
+                            id="javascript">
+                        <label class="form-check-label" for="javascript">
+                            JavaScript
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input skills" name="php" type="checkbox" value="php" id="php">
+                        <label class="form-check-label" for="php">
+                            PHP
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input skills" name="laravel" type="checkbox" value="laravel"
+                            id="laravel">
+                        <label class="form-check-label" for="laravel">
+                            Laravel
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input skills" name="react" type="checkbox" value="react" id="react">
+                        <label class="form-check-label" for="react">
+                            React
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input skills" name="scss" type="checkbox" value="scss" id="scss">
+                        <label class="form-check-label" for="scss">
+                            Scss
+                        </label>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <ul class="list-group">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="calculator mt-5 d-flex justify-content-center">
+            <div class="card w-50 shadow">
+                <div class="card-header">
+                    <div class="d-flex align-items-end flex-column mb-3" style="height: 70px;">
+                        <div class="p-2 stackValue">0</div>
+                        <div class="p-2 finalValue">0</div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row m-3">
+                        <div class="col-md-6">
+                            <button onclick="allCel()" class="btn btn-danger w-100">AC</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button onclick="back()" class="btn btn-info w-100">C</button>
+                        </div>
+                    </div>
+                    <div class="row m-3">
+                        <div class="col-md-3">
+                            <button onclick="valGet(7)" class="btn btn-primary w-100">7</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet(8)" class="btn btn-primary w-100">8</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet(9)" class="btn btn-primary w-100">9</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet('/')" class="btn btn-success w-100">/</button>
+                        </div>
+                    </div>
+                    <div class="row m-3">
+                        <div class="col-md-3">
+                            <button onclick="valGet(4)" class="btn btn-primary w-100">4</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet(5)" class="btn btn-primary w-100">5</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet(6)" class="btn btn-primary w-100">6</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet('*')" class="btn btn-success w-100">*</button>
+                        </div>
+                    </div>
+                    <div class="row m-3">
+                        <div class="col-md-3">
+                            <button onclick="valGet(1)" class="btn btn-primary w-100">1</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet(2)" class="btn btn-primary w-100">2</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet(3)" class="btn btn-primary w-100">3</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet('+')" class="btn btn-success w-100">+</button>
+                        </div>
+                    </div>
+                    <div class="row m-3">
+                        <div class="col-md-3">
+                            <button onclick="valGet(0)" class="btn btn-primary w-100">0</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet('.')" class="btn btn-secondary w-100">.</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="finalRes()" class="btn btn-secondary w-100">=</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button onclick="valGet('-')" class="btn btn-success w-100">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <!-- customize javascript -->
+    <script src="public/custom.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
