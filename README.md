@@ -1,7 +1,7 @@
 # Javascript-MERN-Stack
 ![alt](https://res.cloudinary.com/practicaldev/image/fetch/s--0FRJGdyZ--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/epv55hgtsfi8csprpj9u.jpg)
 
-## Class 01 Overview
+## Class 01
 
 <details>
 <summary>Click Here</summary>
@@ -121,7 +121,7 @@ In September 1995, a Netscape programmer named Brandan Eich developed a new scri
 - two or more words are joined by using concatenation ( + ) 
 </details> 
 
-## Class 02 Overview
+## Class 02
 
 <details>
 <summary>Click Here</summary>
@@ -221,7 +221,7 @@ In September 1995, a Netscape programmer named Brandan Eich developed a new scri
 
 </details> 
 
-## Class 03 Overview
+## Class 03
 
 <details>
 <summary>Click Here</summary>
@@ -260,7 +260,7 @@ In September 1995, a Netscape programmer named Brandan Eich developed a new scri
 
 </details> 
 
-## Class 04 Overview
+## Class 04
 
 <details>
 <summary>Click Here</summary>
@@ -306,7 +306,7 @@ When we call a function then it is called function invoke. After declaring a fun
 
 </details> 
 
-## Class 05 Overview
+## Class 05
 
 <details>
 <summary>Click Here</summary>
@@ -395,7 +395,7 @@ lead_name.fucntion2();
 
 </details> 
 
-## Class 06 Overview
+## Class 06
 
 <details>
 <summary>Click Here</summary>
@@ -487,7 +487,7 @@ new Array(item1, item2, . . . )
 ```
 </details> 
 
-## Class 07 Overview
+## Class 07
 
 <details>
 <summary>Click Here</summary>
@@ -544,7 +544,7 @@ const obj_name = [
 
 </details> 
 
-## Class 09 Overview
+## Class 09
 
 <details>
 <summary>Click Here</summary>
@@ -627,7 +627,7 @@ const obj_name = [
 ```
 </details> 
 
-## Class 10 Overview
+## Class 10
 
 <details>
 <summary>Click Here</summary>
@@ -711,7 +711,7 @@ const obj_name = [
 ```
 </details> 
 
-## Class 11 Overview
+## Class 11
 
 <details>
 <summary>Click Here</summary>
@@ -853,7 +853,7 @@ const obj_name = [
     - submit 
 </details>
 
-## Class 12 Overview
+## Class 12
 
 <details>
 <summary>Click Here</summary>
@@ -996,7 +996,7 @@ const obj_name = [
 
 </details>
 
-## Class 13 Overview
+## Class 13
 
 <details>
 <summary>Click Here</summary>
