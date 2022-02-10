@@ -1161,9 +1161,6 @@ const obj_name = [
 <details>
 <summary>Click Here</summary>
 
-### Title
-## Sub Title
-
 </details>
 
 ## Class 16
@@ -1171,8 +1168,13 @@ const obj_name = [
 <details>
 <summary>Click Here</summary>
 
-### Title
-## Sub Title
+## Overview
+
+- Modal like ootstrap
+
+- Custom alert like facebook
+
+- Accordion like bootstrap
 
 </details>
 
@@ -1181,9 +1183,12 @@ const obj_name = [
 <details>
 <summary>Click Here</summary>
 
-### Title
-## Sub Title
+## Overview
+- Accordion 
 
+- Tabs 
+
+- Modal 
 </details>
 
 ## Class 18
