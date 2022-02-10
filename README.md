@@ -1142,3 +1142,73 @@ const obj_name = [
 - clearInterval 
 
 </details>
+
+## Class 14
+
+<details>
+<summary>Click Here</summary>
+
+### Title
+## Sub Title
+
+</details>
+
+## Class 15
+
+<details>
+<summary>Click Here</summary>
+
+### Title
+## Sub Title
+
+</details>
+
+## Class 16
+
+<details>
+<summary>Click Here</summary>
+
+### Title
+## Sub Title
+
+</details>
+
+## Class 17
+
+<details>
+<summary>Click Here</summary>
+
+### Title
+## Sub Title
+
+</details>
+
+## Class 18
+
+<details>
+<summary>Click Here</summary>
+
+### Title
+## Sub Title
+
+</details>
+
+## Class 19
+
+<details>
+<summary>Click Here</summary>
+
+### Title
+## Sub Title
+
+</details>
+
+## Class 20
+
+<details>
+<summary>Click Here</summary>
+
+### Title
+## Sub Title
+
+</details>
