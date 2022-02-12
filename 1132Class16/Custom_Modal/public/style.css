@@ -25,6 +25,8 @@ li {
     list-style: none;
 }
 
+/* banner css start */
+
 .banner {
     height: 80vh;
     width: 100%;
@@ -62,6 +64,9 @@ li {
     border-radius: 20px;
     box-shadow: var(--shadow);
 }
+
+/* banner css end */
+
 
 /* modal css start */
 
@@ -164,12 +169,13 @@ li {
 .alert_one .alert_content .alert_body {
     padding: 15px 20px;
 }
-.alert_one .alert_content .alert_body .btns{
+
+.alert_one .alert_content .alert_body .btns {
     text-align: right;
 }
-.alert_one .alert_content .alert_body .btns a{
+
+.alert_one .alert_content .alert_body .btns a {
     display: inline-block;
 }
-
 
 /* alert  */
